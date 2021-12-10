@@ -1,0 +1,44 @@
+{
+  "name": "snaprecognizr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config webpack.config.js --progress --profile --inline --content-base ./",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.6.0",
+    "css-loader": "^5.0.2",
+    "face-api.js": "^0.22.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "style-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.0.4",
+    "prettier": "^1.18.2",
+    "webpack-dev-server": "^3.7.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^5.0.0",
+    "path": "^0.12.7",
+    "react-hot-loader": "^4.13.0",
+    "react-router-dom": "^5.2.0",
+    "webpack": "^5.21.1",
+    "webpack-cli": "^4.5.0"
+  },
+  "author": "snap rocgnizers",
+  "license": "ISC",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}

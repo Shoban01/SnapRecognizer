@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Starter Project</title>
+</head>
+<style>
+    #overlay{
+    position: absolute;
+    top: 0;
+}
+</style>
+<body>
+    <!-- <div style="position: relative;">
+        <img  id="myImg" src="images/sample1.jpg"/>
+        <br />
+        <canvas id="overlay" />
+    </div>
+    <div style="position: relative;">
+        <img  id="destImg" src="images/sample2.png"/>
+        <canvas id="overlayTwo" />
+    </div> -->
+    <div>
+        <div>
+            <label>
+                <p>Source Image</p>
+                <input type="file" id="srcImage" name="srcImage" />
+            </label>
+            <br/>
+            <div style="position:relative">
+                <img id="srcImagePlaceHolder" >
+                <canvas id="srcImageCanvas" style="position: absolute;top:0" />
+            </div>
+            
+        </div>
+        <div>
+            <label>
+                <p>Destination Image</p>
+                <input type="file" id="dstImage" name="dstImage" />
+            </label>
+            <br/>
+            <img id="dstImagePlaceHolder">
+        </div>
+        <button id="matchImages">Match Images</button>
+    </div>
+    
+</body>
+
+</html>
